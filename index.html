@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rahul -Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(10, 4, 39);
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(10, 5, 52);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(100, 100, 228);
+      font-size: 1.05rem;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstsection {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 115px 0;
+    }
+
+    .firstsection>div {
+
+      width: 30%;
+    }
+
+    .leftsection {
+      /* background-color: red; */
+
+      font-size: 3rem;
+    }
+
+    .rightsection img {}
+
+    .purple {
+      color: blueviolet
+    }
+
+    .textgrey {
+      color: gray;
+    }
+
+    #element {
+      color: blueviolet;
+    }
+
+    .secondsection {
+
+      max-width: 80vw;
+      margin: auto;
+      height: 90vh;
+
+    }
+
+    .secondsection h1 {
+      font-size: 1.9rem;
+    }
+
+    .secondsection .box {
+      background-color: white;
+    width: 122vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    }
+
+    .secondsection .box2 {
+      background-color: white;
+      width: 70vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondsection .vertical {
+      height: 93px;
+      width: 2px;
+      background-color: white;
+      margin: 0px 0px;
+    }
+
+    .image-top {
+      width: 23px;
+      position: relative;
+      top: -32px;
+      left: -8px;
+
+    }
+
+    .vertical-title {
+      position: relative;
+      top: -10px;
+      left: 18px;
+      width: 311px;
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: -70px;
+      left: 600px;
+      color: #ded5cb;
+      width: 700px;
+      font-size: 15px;
+    }
+
+
+
+    .section-three {
+
+      position: relative;
+      top: -350px;
+      max-width: 80vw;
+      margin: auto;
+      height: 90vh;
+
+    }
+
+    .section-three .box2 {
+      position: relative;
+    left: -63px;
+    background-color: white;
+    width: 122vw;
+    height: 2px;
+    margin: 56px 61px;
+    display: flex;
+    }
+
+    .section-three .vertical2 {
+      height: 81px;
+      width: 2px;
+      background-color: #f5eded;
+      margin: 0px 230px;
+    }
+
+    .section-three .vertical-title2 {
+      position: relative;
+      top: 96px;
+      width: 464px;
+      left: -174px;
+      font-size: 20px;
+    }
+
+    .section-three .vertical-desc2 {
+      position: relative;
+      top: 123px;
+      left: -158px;
+      width: 254px;
+    }
+
+    .section-three .vertical-titleSchool {
+      position: relative;
+      top: 97px;
+      left: -36px;
+      width: 130px;
+      font-size: 20px;
+    }
+
+    .section-three .vertical-descSchool {
+      position: relative;
+      top: 123px;
+      left: -15px;
+      width: 165px;
+    }
+
+    .section-three .vertical-titleSchool10 {
+      position: relative;
+      top: 100px;
+      left: -18px;
+      width: 130px;
+      font-size: 20px;
+    }
+
+    .section-three .vertical-descSchool10 {
+      position: relative;
+      top: 123px;
+      left: -15px;
+      width: 187px;
+    }
+
+    .Secondhr {
+      position: relative;
+      top: -330px;
+      border: 1px solid rgb(24, 24, 60);
+      height: 0px;
+      margin: 60px 80px;
+
+    }
+
+    .Firsthr {
+      border: 1px solid rgb(24, 24, 60);
+      height: 0px;
+      margin: 60px 80px;
+
+    }
+
+    .Thirdhr {
+      position: relative;
+      top: -759px;
+      border: 1px solid rgb(24, 24, 60);
+      height: 2px;
+      margin: 80px 80px;
+    }
+
+    .head {
+      position: relative;
+      top: -31px;
+      left: -21px;
+      display: inline;
+      color: rgb(99, 9, 183);
+    }
+
+
+
+    .section-four {
+
+      position: relative;
+    left: -40px;
+    top: -739px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .section-four li::marker {
+      color: blueviolet;
+    }
+
+    .section-four li:hover {
+      font-size: 20px;
+    }
+
+
+    .Fourthhr {
+      position: relative;
+      top: -650px;
+      border: 1px solid rgb(31, 0, 61);
+      height: 1px;
+    }
+
+    .headproject {
+      position: relative;
+      top: -610px;
+      left: 171px;
+    }
+
+    .section-fifth .project-item {
+      position: relative;
+      top: -550px;
+      left: 182px;
+    }
+
+    .project a {
+      color: rgb(227, 219, 219);
+      text-decoration: none;
+      position: relative;
+      top: -30px;
+
+    }
+
+    .project a:visited {
+      color: rgb(192, 127, 127);
+    }
+
+    .project a:active {
+      color: aqua;
+    }
+
+    .section-fifth li {
+      position: relative;
+      left: 20px;
+      color: rgb(239, 236, 232);
+    }
+
+
+    .section-fifth .project-item2 {
+      position: relative;
+      top: -450px;
+      left: 182px;
+    }
+
+    .section-fifth .project-item3 {
+      position: relative;
+      top: -350px;
+      left: 182px;
+    }
+
+    .fifthhr {
+      position: relative;
+      top: -250px;
+      border: 1px solid rgb(31, 0, 61);
+      height: 1px;
+    }
+
+    .section-sixth {
+      height: 50vh;
+    }
+
+    .section-sixth .Roles {
+      position: relative;
+      top: -200px;
+      left: 170px;
+
+    }
+
+    .section-sixth .Roles-item {
+      position: relative;
+      top: 50px;
+
+    }
+
+    .section-sixth .roleslist-items {
+      position: relative;
+      top: 30px;
+      left: 20px;
+    }
+
+
+    .section-sixth .Roles-item2 {
+      position: relative;
+      top: 150px;
+      left: -1px;
+    }
+
+    .section-sixth .roleslist-items2 {
+      position: relative;
+      top: 30px;
+      left: 20px;
+    }
+
+
+    footer {
+      background-color: rgb(38, 4, 70);
+    height: 22vw;
+    width: 124vw;
+    }
+
+    .footer {
+      display: flex;
+
+      margin: 0 0;
+    }
+
+    .footer-first {
+      position: relative;
+      top: 10px;
+      left: 700px;
+    }
+
+    .second-footer {
+      color: rgb(82, 5, 225);
+      position: relative;
+      top: 70px;
+      left: -200px
+    }
+
+    .second-footer:hover {
+      color: white;
+    }
+
+    .third-footer {
+      position: relative;
+      top: 70px;
+      left: 10px;
+
+    }
+
+    .third-footer a {
+      color: rgb(82, 5, 225);
+      text-decoration: none;
+    }
+
+    .third-footer a:hover {
+      color: white;
+    }
+
+    .fourth-footer {
+      position: relative;
+      top: 70px;
+      left: 100px;
+    }
+
+    .fourth-footer a {
+      color: rgb(82, 5, 225);
+      text-decoration: none;
+    }
+    .fourth-footer a:hover {
+      color: white;
+      
+    }
+
+    .footer img {
+      width: 32px;
+      position: relative;
+      top: 10px;
+    }
+
+    .last-footer p {
+      position: relative;
+      top: 257px;
+      left: -700px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Rahul's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li> <a href="/">Home</a></li>
+          <li> <a href="/">About</a></li>
+          <li> <a href="/">Services</a></li>
+          <li> <a href="/">Projects</a></li>
+          <li> <a href="/">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="firstsection">
+      <div class="leftsection">Hi, My Name is <span class="purple">Rahul</span>
+        <div>and I am a passionate</div>
+        <!-- Element to contain animated typing -->
+        <span id="element"></span>
+      </div>
+      <div class="rightsection">
+        <img src="software-development.png" alt="Developer image" width="600px" height="500px">
+      </div>
+    </section>
+
+    <hr class="Firsthr">
+
+    <section class="secondsection">
+      <span class="textgrey">What I have done so far</span>
+      <h1>Work Experience</h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="devloper.png" alt="developer">
+          <div class="vertical-title">Web Developer Intern -Octanet Pvt Ltd. (october-November)</div>
+          <div class="vertical-desc">
+            During my internship at Octanet Pvt Ltd, I adeptly utilized HTML and CSS to craft visually stunning landing
+            pages and responsive web designs. With HTML, I structured content for optimal accessibility and SEO, while
+            CSS allowed me to meticulously style every element, from typography to layout, ensuring a seamless user
+            experience across devices. By combining these skills, I transformed static designs into dynamic digital
+            interfaces that captivated audiences and exceeded client expectations</div>
+        </div>
+      </div>
+
+    </section>
+    <hr class="Secondhr">
+
+    <section class="section-three">
+      <h1>Education</h1>
+      <div class="box2">
+        <div class="vertical2">
+
+          <div class="vertical-title2">B.Tech in Computer Science and Engineering</div>
+          <div class="vertical-desc2">
+            <ul>
+              <li>Graphic Era Hill University</li>
+              <li>Expected Graduation: July 2025</li>
+              <li>Current Year: 3rd </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="vertical2">
+
+          <div class="vertical-titleSchool">12th Grade </div>
+          <div class="vertical-descSchool">
+            <ul>
+              <li>Doon Public School</li>
+              <li>Year of Passing: 2021 </li>
+              <li>Percentage: 81% </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="vertical2">
+
+          <div class="vertical-titleSchool10">10th Grade</div>
+          <div class="vertical-descSchool10">
+            <li>Doon Public School</li>
+            <li>Year of Passing: 2019</li>
+            <li>Percentage: 86.4%</li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="Thirdhr">
+
+    <section class="section-four">
+
+
+      <div class="rightitems">
+        <h1 class="head">Technical Skills</h1>
+        <ul>
+          <li>Programming Languages: Java, C, C++</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Web Development: HTML and CSS </li>
+          <li>JavaScript</li>
+          <li>Object-Oriented Programming (OOPs)</li>
+          <li>Algorithms and Complexity </li>
+          <li>SQL</li>
+          <li>Operating Systems: Proficient with Windows</li>
+          <li>Database Management Systems (DBMS)</li>
+          <li>Spring and SpringBoot </li>
+        </ul>
+      </div>
+
+      <div class="rightitems">
+        <h1 class="head">Soft Skills</h1>
+        <ul>
+          <li>Observation </li>
+          <li>Decision-Making </li>
+          <li>Communication</li>
+          <li>Multi-Tasking </li>
+        </ul>
+      </div>
+
+    </section>
+    <hr class="Fourthhr">
+
+    <section class="section-fifth">
+      <div class="box4">
+        <h1 class="headproject">Projects</h1>
+
+        <div class="project-item">
+          <h2 class="project"><a href="https://github.com/Rahul8968">Open Music Web Application using HTML/CSS</a>
+          </h2>
+          <ul>
+            <li><span style="color: blueviolet;">Description</span>: Developed an open music website allowing user to
+              discover and listen to a wide range of
+              songs. </li>
+            <li><span style="color: blueviolet;">Technologies Used</span>: HTML and CSS as the primary key
+              Languages/Framework employed. </li>
+            <li><span style="color: blueviolet;">Key Contribution</span>: Designing the user interface, implementing the
+              audio player functionality, or ensuring
+              responsiveness across
+              different devices.</li>
+          </ul>
+        </div>
+
+        <div class="project-item2">
+          <h2 class="project"><a href="https://github.com/Rahul8968/marvel-slidee">Marvel Slider Website </a></h2>
+          <ul>
+            <li><span style="color: blueviolet;">Description</span>: Designed and developed a Marvel-themed website
+              featuring a dynamic slider. Created the user interface, animation, and
+              responsive design using HTML and CSS. </li>
+            <li><span style="color: blueviolet;">Skills</span>: HTML and CSS</li>
+          </ul>
+        </div>
+
+        <div class="project-item3">
+          <h2 class="project"><a href="https://github.com/Rahul8968/descriptionalwebsite">Descriptional Website </a>
+          </h2>
+          <ul>
+            <li><span style="color: blueviolet;">Description</span>: Designed and developed a Descriptional website
+              where I have given tribute to some football legends. </li>
+            <li><span style="color: blueviolet;">Skills</span>: HTML and CSS</li>
+          </ul>
+        </div>
+
+    </section>
+    <hr class="fifthhr">
+
+    <section class="section-sixth">
+      <div class="Roles">
+        <h1>LEADERSHIP ROLE AND EXTRACURRICULAR ACTIVITIES</h1>
+
+        <div class="Roles-item">
+          <h2 style="color: blueviolet;">Experience with NGO’s</h2>
+          <div class="roleslist-items">
+            <ul>
+              <li>Collaborated with local NGOs to support community developed initiatives.</li>
+              <li>Actively participated in volunteer activities, including fundraising campaigns and awareness
+                campaigns.</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="Roles-item2">
+          <h2 style="color: blueviolet;">COVID-19 RELIEF EFFORTS </h2>
+          <div class="roleslist-items2">
+            <ul>
+              <li>Took the initiative to sanitize public areas and raise awareness about hygiene practices during
+                covid-19 crisis. </li>
+              <li>Collaborated with a political party (UKD) to provide support to underprivileged communities affected
+                by the pandemic.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Rahul's Developer Portfolio</h3>
+      </div>
+      <div class="second-footer">
+        <img class="Gmail" src="gmail.png" alt="gmail">
+        <span>Email:rr873592@gmail.com</span>
+      </div>
+      <div class="third-footer">
+        <img src="Linkedin.png" alt="Linkedin">
+        <span><a href="https://www.linkedin.com/in/rahul-rawat-718aaa27a/">Linkedin: www.linkedin.com/in/rahul-rawat-718aaa27a
+          </a></span>
+      </div>
+
+      <div class="fourth-footer">
+        <img src="github.png" alt="github">
+        <span><a href="https://github.com/Rahul8968">Github: https://github.com/Rahul8968 </a></span>
+      </div>
+      <div class="last-footer">
+        <p>&copy; 2024 www.RahulPortfolio.com. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Java developer', 'Video Editor'],
+      typeSpeed: 50,
+    });
+
+  </script>
+</body>
+
+</html>
