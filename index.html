@@ -1,290 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rahul - Developer Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    /* Reset styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    body {
-      background-color: rgb(10, 4, 39);
-      color: white;
-      font-family: 'Poppins', sans-serif;
-    }
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    /* Header */
-    header {
-      background-color: rgb(10, 5, 52);
-      padding: 10px 20px;
-      position: relative;
-      width: 1490px;
-    }
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    .header-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+        <title>Portfolio - Rahul Rawat</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Rahul Rawat</a>
+                </div>
 
-    .header-logo {
-      font-size: 1.5rem;
-      color: white;
-    }
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#leadership" class="nav__link">Leadership</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-    nav ul {
-      list-style-type: none;
-      display: flex;
-    }
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-    nav ul li {
-      margin-right: 20px;
-    }
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Rahul Rawat</span><br> Web Developer</h1>
 
-    nav ul li a {
-      text-decoration: none;
-      color: white;
-    }
+                    <a href="#contact" class="button">Contact</a>
+                </div>
 
-    /* Main content */
-    main {
-      padding: 20px;
-      width: 100%;
-      max-width: 1060px;
-      margin: 0 auto;
-    }
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/rahul-rawat99" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Rahul8968" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                </div>
 
-    section {
-      margin-bottom: 40px;
-    }
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/profile.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
 
-    h1 {
-      margin-bottom: 20px;
-      color: blueviolet;
-    }
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
 
-    p {
-      color: #ded5cb;
-    }
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.png" alt="About me">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Rahul Rawat</h2>
+                        <p class="about__text">I am a passionate web developer with experience in creating dynamic and responsive websites. My journey in web development has equipped me with skills in various technologies, and I am always eager to learn and apply new techniques to solve problems and create effective solutions.</p>           
+                    </div>                                   
+                </div>
+            </section>
 
-    /* Footer */
-    footer {
-      background-color: rgb(38, 4, 70);
-      color: white;
-      text-align: center;
-      padding: 20px;
-      width: 1490px;
-      /* max-width: 1060px; */
-      margin: 0 auto;
-    }
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
 
-    .footer-content {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">I have honed my skills in web development through practical experience and continuous learning. My core competencies include:</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
 
-    .footer-item {
-      display: flex;
-      align-items: center;
-    }
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/working.jpg" alt="Skills" class="skills__img">
+                    </div>
+                </div>
+            </section>
 
-    .footer-item img {
-      width: 32px;
-      margin-right: 10px;
-    }
+            <!--===== WORK EXPERIENCE =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work Experience</h2>
 
-    .footer-item a {
-      color: white;
-      text-decoration: none;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="header-content">
-      <div class="header-logo">Rahul's Portfolio</div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact Me</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+                <div class="work__container bd-grid">
+                    <div class="work__item">
+                        <h3 class="work__title">Web Developer Intern at Gaotech Inc</h3>
+                        <p class="work__description">Worked on various aspects of web development, including creating functionalities using PHP and JavaScript, integrating with Google Tag Manager, and enhancing the user experience through AJAX search and category filters.</p>
+                    </div>
+                    <div class="work__item">
+                        <h3 class="work__title">Full Stack Web developer Intern at Technology Business Incubator </h3>
+                        <p class="work__description">Learning and applying HTML, CSS, JavaScript, and Node.js
+                                and Building projects after completing each module to apply new skills and reinforce learning
+                            </p>
+                    </div>
+                    <div class="work__item">
+                        <h3 class="work__title">Web Developer Intern at Octanet Pvt Ltd</h3>
+                        <p class="work__description">Developed front-end components using HTML, CSS, and JavaScript, contributing to the creation of engaging and responsive web pages.</p>
+                    </div>
+                </div>
+            </section>
 
-  <main>
-    <section>
-      <div class="header-content">
-        <div class="leftsection">
-          <p>Hi, My Name is <span style="color: blueviolet;">Rahul</span> and I am a passionate</p>
-          <span id="element"></span>
-        </div>
-        <div class="rightsection">
-          <img src="software-development.png" alt="Developer image" width="300px">
-        </div>
-      </div>
-    </section>
+            <!--===== PROJECTS =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
 
-    <hr>
+                <div class="projects__container bd-grid">
+                    <div class="projects__item">
+                        <h3 class="projects__title">Dynamic Company Website  </h3>
+                        <p class="projects__description">Developed a locally hosted WordPress site to enhance web development skills and customization expertise. Utilized WordPress, PHP, JavaScript, HTML, and CSS to create custom themes, implement responsive design, and manage content effectively.
+                            </p>
+                    </div>
+                     
+                    <div class="projects__container bd-grid">
+                        <div class="projects__item">
+                            <h3 class="projects__title">E-commerce Website (WooCommerce)  </h3>
+                            <p class="projects__description"> Developed an e-commerce site using WooCommerce to gain practical experience in online store management. Utilized WordPress, WooCommerce, PHP, JavaScript, HTML, and CSS to implement product listings, a shopping cart and checkout system, and inventory management functionalities.
+                                </p>
+                        </div>
 
-    <section>
-      <h1>Work Experience</h1>
-      <p>
-        Web Developer Intern - Octanet Pvt Ltd. (October-November)<br>
-        During my internship at Octanet Pvt Ltd, I adeptly utilized HTML and CSS to craft visually stunning landing pages and responsive web designs. With HTML, I structured content for optimal accessibility and SEO, while CSS allowed me to meticulously style every element, from typography to layout, ensuring a seamless user experience across devices. By combining these skills, I transformed static designs into dynamic digital interfaces that captivated audiences and exceeded client expectations.
-      </p>
-    </section>
+                <div class="projects__container bd-grid">
+                    <div class="projects__item">
+                        <h3 class="projects__title">Weather App</h3>
+                        <p class="projects__description">A dynamic weather app that provides real-time weather updates using a weather API. Features include location search and detailed weather forecasts.</p>
+                    </div>
+                    <div class="projects__item">
+                        <h3 class="projects__title">To-Do List App</h3>
+                        <p class="projects__description">A simple to-do list application that allows users to manage their tasks with features such as adding, editing, and deleting tasks.</p>
+                    </div>
+                </div>
+            </section>
 
-    <hr>
+            <!--===== LEADERSHIP EXPERIENCE =====-->
+            <section class="leadership section" id="leadership">
+                <h2 class="section-title">Leadership Experience</h2>
 
-    <section>
-      <h1>Education</h1>
-      <div class="box2">
-        <div>
-          <h2>B.Tech in Computer Science and Engineering</h2>
-          <p>
-            Graphic Era Hill University<br>
-            Expected Graduation: July 2025<br>
-            Current Year: 3rd
-          </p>
-        </div>
+                <div class="leadership__container bd-grid">
+                   
 
-        <div>
-          <h2>12th Grade</h2>
-          <p>
-            Doon Public School<br>
-            Year of Passing: 2021<br>
-            Percentage: 81%
-          </p>
-        </div>
+                    <div class="leadership__item">
+                        <h3 class="leadership__title">Experience with NGO’s</h3>
+                        <p class="leadership__description"> Collaborated with local NGOs to support and enhance community-driven initiatives. Actively involved in a variety of volunteer activities, including organizing and participating in fundraising events and awareness campaigns to drive positive change.</p>
+                    </div>
+                    <div class="leadership__item">
+                        <h3 class="leadership__title">COVID-19 Relief Efforts</h3>
+                        <p class="leadership__description">Led initiatives to sanitize public spaces and promote hygiene practices during the COVID-19 crisis. Worked in collaboration with the UKD political party to provide essential support and resources to underprivileged communities impacted by the pandemic.
 
-        <div>
-          <h2>10th Grade</h2>
-          <p>
-            Doon Public School<br>
-            Year of Passing: 2019<br>
-            Percentage: 86.4%
-          </p>
-        </div>
-      </div>
-    </section>
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-    <hr>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
 
-    <section>
-      <h1>Technical Skills</h1>
-      <ul>
-        <li>Programming Languages: Java, C, C++</li>
-        <li>Data Structures and Algorithms</li>
-        <li>Web Development: HTML and CSS, JavaScript</li>
-        <li>Object-Oriented Programming (OOPs)</li>
-        <li>Algorithms and Complexity</li>
-        <li>SQL</li>
-        <li>Operating Systems: Proficient with Windows</li>
-        <li>Database Management Systems (DBMS)</li>
-        <li>Spring and SpringBoot</li>
-      </ul>
-    </section>
+                <div class="contact__container bd-grid">
+                    <form action="your_form_action_url" method="post" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" required>
+                        <input type="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" cols="0" rows="10" class="contact__input" placeholder="Your Message" required></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
 
-    <hr>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Rahul Rawat</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/rahul-rawat99" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Rahul8968" class="footer__icon" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <p class="footer__copy">&#169; Rahul Rawat. All rights reserved</p>
+        </footer>
 
-    <section>
-      <h1>Soft Skills</h1>
-      <ul>
-        <li>Observation</li>
-        <li>Decision-Making</li>
-        <li>Communication</li>
-        <li>Multi-Tasking</li>
-      </ul>
-    </section>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-    <hr>
-
-    <section>
-      <h1>Projects</h1>
-      <ul>
-        <li>
-          <h2>Open Music Web Application using HTML/CSS</h2>
-          <p>
-            Description: Developed an open music website allowing user to discover and listen to a wide range of songs.<br>
-            Technologies Used: HTML and CSS as the primary key Languages/Framework employed.<br>
-            Key Contribution: Designing the user interface, implementing the audio player functionality, or ensuring responsiveness across different devices.
-          </p>
-        </li>
-        <li>
-          <h2>Marvel Slider Website</h2>
-          <p>
-            Description: Designed and developed a Marvel-themed website featuring a dynamic slider. Created the user interface, animation, and responsive design using HTML and CSS.<br>
-            Skills: HTML and CSS
-          </p>
-        </li>
-      </ul>
-    </section>
-
-    <hr>
-
-    <section>
-      <h1>Leadership Role and Extracurricular Activities</h1>
-      <ul>
-        <li>
-          <h2>Experience with NGO’s</h2>
-          <p>
-            Collaborated with local NGOs to support community developed initiatives.<br>
-            Actively participated in volunteer activities, including fundraising campaigns and awareness campaigns.
-          </p>
-        </li>
-        <li>
-          <h2>COVID-19 Relief Efforts</h2>
-          <p>
-            Took the initiative to sanitize public areas and raise awareness about hygiene practices during covid-19 crisis.<br>
-            Collaborated with a political party (UKD) to provide support to underprivileged communities affected by the pandemic.
-          </p>
-        </li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-content">
-      <div class="footer-item">
-        <h3>Rahul's Developer Portfolio</h3>
-      </div>
-      <div class="footer-item">
-        <img src="gmail.png" alt="gmail">
-        <a href="mailto:rr873592@gmail.com">Email: rr873592@gmail.com</a>
-      </div>
-      <div class="footer-item">
-        <img src="Linkedin.png" alt="Linkedin">
-        <a href="https://www.linkedin.com/in/rahul-rawat-718aaa27a/">Linkedin: www.linkedin.com/in/rahul-rawat-718aaa27a</a>
-      </div>
-      <div class="footer-item">
-        <img src="github.png" alt="github">
-        <a href="https://github.com/Rahul8968">Github: https://github.com/Rahul8968</a>
-      </div>
-    </div>
-    <p>&copy; 2024 www.RahulPortfolio.com. All rights reserved.</p>
-  </footer>
-
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['Web developer', 'Java developer', 'Web developer'],
-      typeSpeed: 50,
-    });
-  </script>
-</body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
